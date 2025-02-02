@@ -2,7 +2,7 @@ def calcTime(args):
     def inner():
         import time
         t1=time.time()
-        args()
+        args()#calling the fuctions indirectly
         t2=time.time()
         print(f'Time = {t2-t1}')
     return inner
