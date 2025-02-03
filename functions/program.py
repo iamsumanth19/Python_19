@@ -50,4 +50,15 @@ def palindromeNum():
         print(True)
     else:
         print(False)
-palindromeNum()
+@calcTime
+def palindrome():
+    word=input('Enter a String:')
+    rev=''
+    for i in word:
+        rev=str(i)+rev
+    if word==rev:
+        print(f'{word} is a palindrome')
+    else:
+        print(f'{word} is not a palindrome')
+    
+palindrome()
