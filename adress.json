@@ -1,0 +1,9 @@
+{
+    "name": "sumanth",
+    "age": 21,
+    "adress": {
+        "village": "yemmiganur",
+        "district": "kurnool",
+        "pincode": 518360
+    }
+}
